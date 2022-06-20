@@ -1,0 +1,48 @@
+package com.bankapplication.Bank_application_Jaxrs.constants;
+
+public interface Constants {
+    int DEFAULT_INPUT = 4;
+    int ACC_NO_INITIAL_SIZE = 10000;
+    int MINIMUM_BALANCE = 1000;
+    int TRANSFER_AMOUNT_WITHOUT_CHARGE = 5000;
+    int TRANSACTION_NOMINAL_FEE = 10;
+    int MAINTANENCE_FEE = 100;
+    char YES = 'y';
+    char NO = 'n';
+    String FILE_NOT_LOADED = "CUSTOMER FILE HASN'T LOADED! PLEASE CHECK WHAT'S WRONG";
+    String WELCOME_MESSAGE = "HELLO WELCOME TO THEKA BANK";
+    String ARE_YOU_CUSTOMER = "Are you a customer of our bank? Press 'y' if yes or 'n' if no";
+    String ENTER_VALID_INPUT = "Please enter valid input";
+    String CREATE_ACCOUNT_MESSAGE = "To create an account, please enter the following details\nYour name and your password";
+    String WELCOME_BACK_MESSAGE = "Welcome back!";
+    String CONFIRM_PASSWORD = "Re enter your password";
+    String ENTER_NAME = "Enter your name";
+    String ENTER_PASSWORD = "Enter your password";
+    String ENTER_PASSWORD_WITH_CONSTRAINT = "Enter your password(Minimum 2 uppercase, 2 lowercase and 2 numbers must be present, NO SPECIAL CHARACTERS)";
+    String PASSWORD_CONSTRAINT_VIOLATION = "Password must have atleast 2 uppercase, 2 lowercase and 2 numbers";
+    String CONFIRM_PASSWORD_NOT_MATCH = "Your passwords don't match, please enter same password";
+    String ACCOUNT_CREATION_SUCCESS = "You have successfully created an account in THEKA bank";
+    String DISPLAY_ALL_POSSIBLE_OPERATIONS = "Enter 1 to withdraw money\nEnter 2 to deposit money\nEnter 3 to transfer money\nEnter 4 to change password\nEnter 5 to get top n customers.\nEnter 6 to check your balance.\nEnter 7 to printCustomerTransaction.\nPress -1 to exit";
+    String PASSWORD_INCORRECT = "Wrong credentials try again";
+    String SEE_YOU_AGAIN_MESSAGE = "Thanks for using THEKA bank, until next time!";
+    String YOU_NEED = "You need ";
+    String BALANCE_INSUFFICIENT = "Balance insufficient";
+    String ENTER_WITHDRAW_AMT = "Enter the amount to withdraw";
+    String WITHDRAW_SUCCESS = "Successfully withdrawn ";
+    String DEPOSIT_SUCCESS = "Successfully deposited ";
+    String ENTER_DEPOSIT_AMT = "Enter the amount to deposit";
+    String ENTER_RECEIVER_BANK_ID = "Enter receiver bank id";
+    String ENTER_TRANSFER_AMT = "Enter the amount to transfer";
+    String INCORRECT_RECEIVERID = "The customer with given id doesn't exist, try again";
+    String CURRENT_BANK_BALANCE = "Your current bank balance is ";
+    String ENTER_NEW_PASSWORD = "Enter new password (Minimum 2 uppercase, 2 lowercase and 2 numbers must be present, NO SPECIAL CHARACTERS)";
+    String PASSWORD_CHANGED = "Password changed successfully";
+    String TRANSFER_AMT_EXCEEDS_THRESHOLD = "Transaction fee has exceeded " + TRANSFER_AMOUNT_WITHOUT_CHARGE + " . So you'll be charged " + TRANSACTION_NOMINAL_FEE + " as nominal fee";
+    String NOT_ENOUGH_MINIMUM_BALANCE = "You don't have enough minimum balance of " + MINIMUM_BALANCE;
+    String ALREADY_USED_PASSWORD = "You can't reuse the same password that you've used previous 3 times";
+    String RECEIVER_ID_SAME_AS_LOGGEDINUSER_ID = "You've entered your id, you must enter receiver user id";
+    String ENTER_NUMBER_OF_TOP_CUSTOMERS = "Enter number of top customers to display";
+    String CHANGE_EVERY_5_TRANSACTIONS = "You have completed 5 transactions, please change your password for security reasons";
+    String MAINTANENCE_FEE_CHARGE_MESSAGE = "You have completed 10 transactions, you'll be charged a maintanence fee of 100";
+    String YOUR_BALANCE = "Your balance is ";
+}
